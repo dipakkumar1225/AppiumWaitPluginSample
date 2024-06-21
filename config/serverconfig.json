@@ -1,0 +1,14 @@
+{
+  "server": {
+    "port": 4723,
+    "plugin": {
+      "element-wait": {
+        "timeout": 55000,
+        "intervalBetweenAttempts": 250,
+        "excludeEnabledCheck": [
+          "click"
+        ]
+      }
+    }
+  }
+}
